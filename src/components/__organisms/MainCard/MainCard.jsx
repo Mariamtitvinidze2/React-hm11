@@ -2,7 +2,7 @@ import React from "react";
 import Texts from "../../__molecules/Texts/Texts";
 import SecondText from "../../__molecules/SecondText/SecondText";
 import ThirdText from "../../__molecules/ThirdText/ThirdText";
-import LightImage from "../../../assets/light.png"; 
+import LightImage from "../../../assets/Light.png"; 
 import DarkImage from "../../../assets/dark.png"; 
 
 const MainCard = ({ time, theme }) => {
