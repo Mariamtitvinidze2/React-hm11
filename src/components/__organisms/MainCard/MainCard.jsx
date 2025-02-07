@@ -2,8 +2,8 @@ import React from "react";
 import Texts from "../../__molecules/Texts/Texts";
 import SecondText from "../../__molecules/SecondText/SecondText";
 import ThirdText from "../../__molecules/ThirdText/ThirdText";
-import LightImage from "../../../assets/light.png"; // დღის ფოტო
-import DarkImage from "../../../assets/dark.png"; // ღამის ფოტო
+import LightImage from "../../../assets/light.png"; 
+import DarkImage from "../../../assets/dark.png"; 
 
 const MainCard = ({ time, theme }) => {
   const backgroundImage = theme === "light" ? LightImage : DarkImage;
@@ -24,7 +24,7 @@ const MainCard = ({ time, theme }) => {
       <div style={{ display: "flex", flexDirection: "column" }}>
         <Texts />
         <SecondText theme={theme} />
-        <ThirdText time={time} /> {/* აქ ვამატებთ ThirdText-ს */}
+        <ThirdText time={time} /> 
       </div>
     </div>
   );

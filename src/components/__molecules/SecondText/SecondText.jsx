@@ -1,10 +1,10 @@
 import React from "react";
-import SunIcon from "../../../assets/Sun.svg"; // მზის ფოტო
-import MoonIcon from "../../../assets/moon.svg"; // მთვარის ფოტო
+import SunIcon from "../../../assets/Sun.svg"; 
+import MoonIcon from "../../../assets/moon.svg"; 
 
 const SecondText = ({ theme }) => {
-  const icon = theme === "light" ? SunIcon : MoonIcon; // დღის და ღამის აიკონი
-  const greeting = theme === "light" ? "GOOD MORNING, IT’S CURRENTLY" : "GOOD EVENING, IT’S CURRENTLY"; // ტექსტი
+  const icon = theme === "light" ? SunIcon : MoonIcon;
+  const greeting = theme === "light" ? "GOOD MORNING, IT’S CURRENTLY" : "GOOD EVENING, IT’S CURRENTLY"; 
 
   return (
     <div style={{ display: "flex", gap: "10px", position: "absolute", top: "50%", left: "15%", transform: "translateY(-50%)" }}>
